@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/ossmeasures/circleci_nodejs_handson.svg?branch=master)](https://travis-ci.org/ossmeasures/circleci_nodejs_handson)
-[![codecov](https://codecov.io/gh/ossmeasures/circleci_nodejs_handson/branch/master/graph/badge.svg)](https://codecov.io/gh/ossmeasures/circleci_nodejs_handson)
 
 # circleci_nodejs_handson
 
