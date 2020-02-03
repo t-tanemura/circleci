@@ -18,6 +18,18 @@ test('-77 + 7 は -70', () => {
     expect(sum(-77, 7)).toBe(-70);
 });
 
+test('hから始める場合、helloで返す'{
+    expect(hello('help')).toBe('hello');
+});
+
+test('bから始める場合、boyで返す'{
+    expect(hello('back')).toBe('boy');
+});
+
+test('その他の場合、yeahで返す'{
+    expect(hello('window')).toBe('yeah');
+});
+
 test('', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
