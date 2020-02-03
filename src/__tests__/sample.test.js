@@ -14,6 +14,10 @@ test('-30 + -21 は -51', () => {
     expect(sum(-30, -21)).toBe(-51);
 });
 
+test('-77 + 7 は -70', () => {
+    expect(sum(-77, 7)).toBe(-70);
+});
+
 test('', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
